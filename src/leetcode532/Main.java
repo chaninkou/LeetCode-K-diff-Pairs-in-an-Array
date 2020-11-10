@@ -1,4 +1,4 @@
-package diff;
+package leetcode532;
 
 import java.util.Arrays;
 
