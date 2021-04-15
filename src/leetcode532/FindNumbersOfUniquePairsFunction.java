@@ -33,6 +33,7 @@ public class FindNumbersOfUniquePairsFunction {
             }
         }
         
+        // Use two hashset instead.
         return count;
     }
     
