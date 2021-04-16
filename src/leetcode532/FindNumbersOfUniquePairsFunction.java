@@ -38,7 +38,9 @@ public class FindNumbersOfUniquePairsFunction {
     }
     
     public int findPair2(int[] nums, int k) {
-        if (k < 0) { return 0; }
+		if (k < 0) {
+			return 0;
+		}
 
         Set<Integer> starters = new HashSet<Integer>();
         Set<Integer> uniqs = new HashSet<Integer>();
